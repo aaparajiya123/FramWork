@@ -19,7 +19,6 @@ public class TestBase {
 	
 	public TestBase() throws IOException {
 		prop = new Properties();
-		
 		try 
 		{
 			FileInputStream ip = new FileInputStream("C:\\Users\\user\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
